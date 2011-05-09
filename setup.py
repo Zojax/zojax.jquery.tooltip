@@ -11,7 +11,7 @@
 # FOR A PARTICULAR PURPOSE.
 #
 ##############################################################################
-"""Setup for zojax.jquery.treeview package
+"""Setup for zojax.jquery.tooltip package
 
 $Id$
 """
@@ -24,9 +24,9 @@ def read(*rnames):
 version='0'
 
 
-setup(name='zojax.jquery.treeview',
+setup(name='zojax.jquery.tooltip',
       version=version,
-      description="JQuery treeview Plugin",
+      description="JQuery tooltip Plugin",
       long_description=(
           'Detailed Documentation\n' +
           '======================\n'
