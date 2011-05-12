@@ -58,8 +58,9 @@
 					this.alt = "";
 				})
 				.mouseover(save)
-				.mouseout(hide)
-				.click(hide);
+				//.mouseout(hide)
+			    .click(save);
+				//.click(hide);
 		},
 		fixPNG: IE ? function() {
 			return this.each(function () {

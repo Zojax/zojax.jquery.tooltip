@@ -20,5 +20,15 @@
      type="stylesheet"
      path="jquery-tooltip/jquery.tooltip.css" filetype="zrt" />
   
+  
+  <zojax:resourceinclude
+     name="jquery.qtip.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" path="jquery-tooltip/jquery.qtip.min.js" />
+     
+  <zojax:resourceinclude
+     name="jquery.simpletip.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" path="jquery-tooltip/jquery.simpletip.min.js" />
 
 </configure>
